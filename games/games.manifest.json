@@ -1,0 +1,45 @@
+{
+  "sdk": {
+    "id": "source-sdk-2013",
+    "repo": "https://github.com/ValveSoftware/source-sdk-2013.git",
+    "branch": "master"
+  },
+  "games": [
+    {
+      "id": "hl2",
+      "displayName": "Half-Life 2",
+      "repo": "https://github.com/ValveSoftware/source-sdk-2013.git",
+      "branch": "master",
+      "mounts": ["hl2", "hl2/custom"],
+      "mode": "singleplayer",
+      "launch": "map d1_trainstation_01"
+    },
+    {
+      "id": "tf2",
+      "displayName": "Team Fortress 2 (community fork)",
+      "repo": "https://github.com/mastercomfig/tf2-patches.git",
+      "branch": "master",
+      "mounts": ["tf", "tf/custom"],
+      "mode": "multiplayer",
+      "launch": "map ctf_2fort"
+    },
+    {
+      "id": "css",
+      "displayName": "Counter-Strike Source (community fork)",
+      "repo": "https://github.com/nillerusr/source-engine.git",
+      "branch": "main",
+      "mounts": ["cstrike", "cstrike/custom"],
+      "mode": "multiplayer",
+      "launch": "map de_dust2"
+    },
+    {
+      "id": "portal",
+      "displayName": "Portal (community fork)",
+      "repo": "https://github.com/robotboy655/source-sdk-2013.git",
+      "branch": "master",
+      "mounts": ["portal", "portal/custom"],
+      "mode": "singleplayer",
+      "launch": "map testchmb_a_00"
+    }
+  ]
+}
